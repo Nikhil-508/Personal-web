@@ -53,11 +53,14 @@ h1 {
 }
 
 h2 {
-	color: #24262a;
+	color: #21d76d;
 	font-weight: 700;
 	font-size: 2rem;
 	line-height: 2.5rem;
 	font-family: "Poppins"
+}
+.navbar-brand a{
+	text-decoration: none;
 }
 
 h3 {
@@ -521,11 +524,15 @@ input[type='checkbox'] {
 .header {
 	padding-top: 7rem;
 	padding-bottom: 5.5rem;
-	background: linear-gradient(rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.1)), url('../images/header-background.jpg') center center no-repeat;
+	background: linear-gradient(rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.1)), url(https://p4.wallpaperbetter.com/wallpaper/660/60/60/laptop-wallpaper-preview.jpg) center center no-repeat;
 	background-size: cover;
 	text-align: center;
 }
-
+.mypic{
+	position: relative;
+	left: 670px;
+	bottom:350px;
+}
 .header .h1-large {
 	margin-bottom: 1.75rem;
 	color: #ffffff;
@@ -620,7 +627,8 @@ input[type='checkbox'] {
 /*******************/
 .split .area-1 {
 	height: 430px;
-	background: linear-gradient(to bottom right, rgba(25, 26, 29, 0.5), rgba(25, 26, 29, 0.5)), url('../images/details-background.jpg') center center no-repeat;
+	background: linear-gradient(to bottom right, rgba(25, 26, 29, 0.5), rgba(25, 26, 29, 0.5)), url(/images/mypicweb.jpg) center center no-repeat;
+	/* background:  url(/mark/images/mypicweb.jpg) center center no-repeat; */
 	background-size: cover;
 }
 
@@ -1220,8 +1228,8 @@ a:hover.back-to-top {
 
 	/* Header */
 	.header {
-		padding-top: 18.25rem;
-		padding-bottom: 17.25rem;
+		padding-top: 12.25rem;
+		padding-bottom: 0rem;
 	}
 	/* end of header */
 
